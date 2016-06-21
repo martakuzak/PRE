@@ -10,7 +10,7 @@ public class TransactionReader {
 	 * @param name file name
 	 */
 	public int readTransactions(String name) {
-		int sum = 0;
+		double sum = 0;
 		try{
 			Scanner scan = new Scanner(new File(name)); 
 			while(scan.hasNextLine()) {
