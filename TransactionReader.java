@@ -9,7 +9,7 @@ public class TransactionReader {
 	/**
 	 * @param name file name
 	 */
-	public int readTransactions(String name) {
+	public double readTransactions(String name) {
 		double sum = 0;
 		try{
 			Scanner scan = new Scanner(new File(name)); 
