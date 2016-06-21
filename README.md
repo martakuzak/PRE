@@ -1,4 +1,5 @@
 SKOMPILOWANIE PROGRAMU I URUCHOMIENIE PROGRAMU:
+
 Należy otworzyć wiersz poleceń i wpisać:
 javac TransactionReader.java
 java TransactionReader NAZWA_PLIKU
